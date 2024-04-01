@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+button {
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 1.8em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#si {
+    background-color: #00ff00;
+}
+
+#no {
+    background-color: #ff0000;
+}
+
+#respuesta-si {
+    font-size: 1.8em;
+    margin: 20px;
+    padding: 15px 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
